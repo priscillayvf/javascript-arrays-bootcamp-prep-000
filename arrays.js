@@ -25,5 +25,5 @@ function accessElementInArray(array, index) {
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   var numb = [1, 2, 3]
   numb.shift()
-  return numb.splice
+  return numb
 }
