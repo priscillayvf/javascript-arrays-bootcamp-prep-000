@@ -24,6 +24,6 @@ function accessElementInArray(array, index) {
 }
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   const numb = [1, 2, 3]
-  numb.shift()
+  numb.unshift()
   return numb
 }
