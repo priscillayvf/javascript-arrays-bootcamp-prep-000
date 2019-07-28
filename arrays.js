@@ -38,5 +38,7 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   return numThree;
 }
 function removeElementFromEndOfArray(array) {
-  
+  var feet = [1, 2, 3]
+  feet.slice(0, feet.length - 1)
+  return feet
 }
