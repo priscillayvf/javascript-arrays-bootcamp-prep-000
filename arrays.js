@@ -32,3 +32,8 @@ function removeElementFromBeginningOfArray(array) {
   numbTwo = numbTwo.slice(1);
   return numbTwo
 }
+function destructivelyRemoveElementFromEndOfArray(array) {
+  var numThree = [1, 2, 3]
+  numThree.numThree()
+  return numThree
+}
