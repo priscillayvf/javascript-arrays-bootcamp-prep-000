@@ -30,10 +30,10 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 function removeElementFromBeginningOfArray(array) {
   var numbTwo = [1, 2, 3];
   numbTwo = numbTwo.slice(1);
-  return numbTwo
+  return numbTwo;
 }
 function destructivelyRemoveElementFromEndOfArray(array) {
-  var numThree = [1, 2, 3]
-  numThree.numThree()
-  return numThree
+  var numThree = [1, 2, 3];
+  numThree.pop();
+  return numThree;
 }
